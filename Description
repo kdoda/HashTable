@@ -1,0 +1,11 @@
+Creating HashTable class by defining all the functions necessary.
+It is used quadratic probing.
+
+The functions and are implemented to improve this case:
+
+Since it is a quadratic probing the table size needs to be a prime number and the table should be at max half full.When the table its 
+excatly half full and the user enters another value the vector need to be resized,all the previous elements should be copied(which if
+the vector is large it takes a long time,and it is bothering for the user)  and then 
+insertthe next value.I modified to functions to improve this case in this way:
+When the vector is excatly half full every time the user enters a value,a fixed number of elements will be copied form the first table
+thus continuing in this way until the whole first array is copied.In this way the user would not notice the delay.
