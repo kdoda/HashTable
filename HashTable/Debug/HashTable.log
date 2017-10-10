@@ -1,0 +1,39 @@
+﻿  main.cpp
+c:\users\dodak\source\repos\hashtable\hashtable\hashtable.cpp(25): warning C4018: '<': signed/unsigned mismatch
+  c:\users\dodak\source\repos\hashtable\hashtable\hashtable.cpp(21): note: while compiling class template member function 'bool HashTable<int>::insert(const HashedObj &)'
+          with
+          [
+              HashedObj=int
+          ]
+  c:\users\dodak\source\repos\hashtable\hashtable\main.cpp(14): note: see reference to function template instantiation 'bool HashTable<int>::insert(const HashedObj &)' being compiled
+          with
+          [
+              HashedObj=int
+          ]
+  c:\users\dodak\source\repos\hashtable\hashtable\main.cpp(10): note: see reference to class template instantiation 'HashTable<int>' being compiled
+c:\users\dodak\source\repos\hashtable\hashtable\hashtable.cpp(240): warning C4018: '>=': signed/unsigned mismatch
+  c:\users\dodak\source\repos\hashtable\hashtable\hashtable.cpp(231): note: while compiling class template member function 'int HashTable<int>::findPos(const HashedObj &) const'
+          with
+          [
+              HashedObj=int
+          ]
+  c:\users\dodak\source\repos\hashtable\hashtable\hashtable.cpp(27): note: see reference to function template instantiation 'int HashTable<int>::findPos(const HashedObj &) const' being compiled
+          with
+          [
+              HashedObj=int
+          ]
+  c:\users\dodak\source\repos\hashtable\hashtable\hashtable.cpp(11): note: while compiling class template member function 'HashTable<int>::HashTable(int)'
+  c:\users\dodak\source\repos\hashtable\hashtable\main.cpp(10): note: see reference to function template instantiation 'HashTable<int>::HashTable(int)' being compiled
+c:\users\dodak\source\repos\hashtable\hashtable\hashtable.cpp(257): warning C4018: '>=': signed/unsigned mismatch
+  c:\users\dodak\source\repos\hashtable\hashtable\hashtable.cpp(248): note: while compiling class template member function 'int HashTable<int>::findPosTemp(const HashedObj &) const'
+          with
+          [
+              HashedObj=int
+          ]
+  c:\users\dodak\source\repos\hashtable\hashtable\hashtable.cpp(45): note: see reference to function template instantiation 'int HashTable<int>::findPosTemp(const HashedObj &) const' being compiled
+          with
+          [
+              HashedObj=int
+          ]
+  HashTable.vcxproj -> C:\Users\dodak\source\repos\HashTable\Debug\HashTable.exe
+  HashTable.vcxproj -> C:\Users\dodak\source\repos\HashTable\Debug\HashTable.pdb (Partial PDB)
